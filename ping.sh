@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ansible '*' -m ping
+ansible all -m ping
