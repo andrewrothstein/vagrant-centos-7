@@ -1,6 +1,6 @@
 ---
-- src: andrewrothstein.subgit
-  version: v1.0.3
+- src: andrewrothstein.anaconda
+  version: v3.0.0
 
 
                                     

@@ -1,4 +1,5 @@
 **~
 *.retry
 .vagrant
-.ansible-roles/*
+.ansible-roles/
+.ansible-factcache/
