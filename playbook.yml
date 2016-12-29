@@ -1,5 +1,10 @@
 ---
 - hosts: all
   roles:
-    - andrewrothstein.anaconda
+    - role: andrewrothstein.anaconda
+      anaconda_make_sys_default: True
+    - role: andrewrothstein.supervisord
+    - role: andrewrothstein.jupyter-supervisord
+      jupyter_supervisord_environment: vagrant-centos-7-environment.yml
+      
 
